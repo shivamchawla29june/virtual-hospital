@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <script src="jsfiles/jquery-3.2.1.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <link href="cssfiles/header.css" type="text/css" rel="stylesheet">
+    <link href="cssfiles/footer.css" type="text/css" rel="stylesheet">
+    <link href="cssfiles/loginform.css" type="text/css" rel="stylesheet">
+    <link href="cssfiles/sliding.css" type="text/css" rel="stylesheet">
+    <link href="cssfiles/news.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="cssfiles/privacy.css">
+</head>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="cssfiles/style.css">
+</head>
+
+<body>
+    <?php
+    require_once 'connect.inc.php';
+    require 'core.inc.php';
+    include 'header.php';
+    ?>
+
+        <h1>Contact Us</h1>
+        <form class="cf">
+            <div class="half left cf">
+                <input type="text" name="name" id="input-name" placeholder="Name" required>
+                <input type="email" name="email" id="input-email" placeholder="Email address" required>
+                <input type="text" name="subject" id="input-subject" placeholder="Subject" required>
+            </div>
+            <div class="half right cf">
+                <textarea name="message" type="text" id="input-message" placeholder="Message" required></textarea>
+            </div>
+            <input type="submit" value="Submit" id="input-submit">
+        </form>
+        <?php
+        include 'footer.php';
+    ?>
+            <style>
+                <?php include 'cssfiles/foote.css';
+                ?>
+
+            </style>
+
+
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <script src="https://rawgit.com/enyo/dropzone/master/dist/dropzone.js"></script>
+    <link href="https://rawgit.com/enyo/dropzone/master/dist/dropzone.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="uploads"></div>
+    <div class="dropzone" id="dropzone">
+        Drop files to upload
+    </div>
+
+
+    <script>
+        /*        (function() {
+                    var dropzone = document.getElementById('dropzone');
+
+                    var upload = function(files) {
+                        var formData = new FormData(),
+                            xhr = new XMLHttpRequest(),
+                            x;
+                        for (x = 0; x < files.length; x++) {
+                            formData.append('file[]', files[x]);
+                        }
+
+                        xhr.onload = function() {
+                            var data = this.responseText;
+                            console.log(data);
+                        }
+
+                        xhr.open('post', upload.php);
+                        xhr.send(formData);
+                    }
+
+                    dropzone.ondrop = function(e) {
+                        e.preventDefault();
+                        this.className = 'dropzone';
+                        upload(e.dataTransfer.files);
+                    }
+
+                    dropzone.ondragover = function(e) {
+                        e.preventDefault();
+                        this.className = 'dropzone dragover';
+                        return false;
+                    }
+
+                    dropzone.ondragleave = function() {
+                        this.className = 'dropzone';
+                        return false;
+                    }
+                }());
+        */
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+patients
+    p_id
+    name
+    username
+    password
+    gender
+    email
+    phn no.
+    
+admin
+    a_id
+    username
+    password
+    
+doctor
+    d_id
+    d_ame
+    username
+    password
+    gender
+    email
+    phn no.
+    speciality
+    
+    
+appointment
+    d_id
+    p_id
+    date
+    time
+    

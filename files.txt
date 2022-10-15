@@ -1,0 +1,62 @@
+home page ----- index.php
+        contact us
+        footer
+        
+doctors ------ doctors.php
+
+location ------ location.php
+
+uploadrecords/getmedicine ------- progressbar.php
+
+newsandmedicine -------------- news.php
+
+faq ------------faq.php
+        everything
+        
+registration ---------registration.php
+
+registerdoc --------------registerdoctor.inc.php
+
+registerpatient --------------- register.inc.php
+
+mychart --------------- download.php
+
+edit profile ----------------- edit_profile.php
+
+logout --------- logout.php
+
+
+
+afterlogindoctor -------------------- doctorindex.php
+        contact us
+        footer
+        
+appointments ------------------ doctorappointment.php
+
+edit doctor  ------------------------- edit_profile_doctor.php
+
+
+
+
+
+ADMIN   ------------------------- admin.php
+
+view user ----------------------- view_user.php
+
+view doctor --------------------------- view_doctor.php
+
+delete user --------------------------- delete_user.php
+
+delete doctor --------------------------- delete_doctor.php
+
+view all appointments ---------------------- viewappointmentsadmin.php
+
+
+
+
+
+
+
+
+
+

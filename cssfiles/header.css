@@ -1,0 +1,132 @@
+body {
+    margin: 0px;
+    background-color: #F5F5F5;
+}
+
+.header-main {
+    height: 170px;
+    width: 100%;
+    background: #5B5291;
+    color: white;
+    margin: 0px;
+}
+
+.header-upper {
+    height: 30px;
+    background-color: #5B5291;
+}
+
+.header-upper .list1 {
+    display: inline-flex;
+    float: right;
+    list-style: none;
+    margin-top: 3px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.list1 .item1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 7px;
+    font-size: 13px;
+    border-right: 1px solid white;
+    height: 18px;
+}
+
+.list1 .item1-special {
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 7px;
+    border: none;
+    font-size: 13px;
+}
+
+a {
+    color: white !important;
+}
+
+.header-lower {
+    height: 140px;
+    width: 100%;
+    /*display: inline;*/
+    background-color: #63599E;
+}
+
+.header-lower-data {
+    height: 90px;
+    display: inline-flex;
+    width: 100%;
+}
+
+.header-lower-data .logo {
+    /*float: left;*/
+    margin-left: 20px;
+    margin-top: 25px;
+    padding: 5px;
+    height: 60px;
+    width: 60px;
+}
+
+.header-lower-data .login {
+    display: inline-flex;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.header-lower-data .login .log {
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+    float: right;
+    width: 100%;
+}
+
+.header-lower-data .login .log .item2 {
+    padding: 10px;
+    margin-top: 25px;
+    border: none;
+    float: right;
+}
+
+.itemx {
+    padding: 7px;
+    margin-top: 10px;
+    border: none;
+    float: right;
+}
+
+.header-lower-main {
+    margin-top: 5px;
+    height: 50px;
+}
+
+.header-lower-main .navigation-last {
+    width: 100%;
+    display: inline-flex;
+    margin: 0px;
+}
+
+.header-lower-main .navigation-last .main-navigation {
+    list-style: none;
+    display: inline-flex;
+    padding-right: 5px;
+    margin: 0px;
+}
+
+.header-lower-main .navigation-last .main-navigation .item3 {
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}
+
+.error {
+    color: red !important;
+}

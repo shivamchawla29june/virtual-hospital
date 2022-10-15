@@ -1,0 +1,40 @@
+.cont {
+    min-height: 100%;
+    position: relative;
+}
+.footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    height: 170px;
+    background-color: #63599E;
+}
+
+.footerdata {
+    width: 100%;
+}
+
+.footertable {
+    width: 100%;
+}
+
+.footertable th {
+    text-align: left;
+    padding-left: 33px;
+}
+
+.footertable {}
+
+.footertable td a {
+    color: #FFFFFF;
+}
+
+#source {
+    text-align: center;
+    width: 100%;
+}
+
+#add {
+    text-align: center;
+    width: 100%;
+}
